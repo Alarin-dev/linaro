@@ -1,9 +1,11 @@
+main {
+  max-width: 900px;
+  margin: auto;
+} 
 body {
-	margin: 60px auto;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Inter', sans-serif;
 	background: #050505;
 	color: #eaeaea;
-	max-width: 730px;
 	padding: 0 20px;
 }
 .navbar {
@@ -27,17 +29,16 @@ body {
 }
 .hero {
 	text-align: center;
-	padding: 120px 20px;
+	padding: 140px 20px 100px;
+}
+.hero h1 {
+  font-size: 40px;
 }
 .hero span {
 	color: #a855f7;
 }
 .hero-buttons {
 	margin-top: 25px
-}
-h1 {
-  font-size: 32px;
-  margin-bottom: 8px;
 }
 h2 {
   font-size: 22px;
@@ -66,6 +67,11 @@ li {
 	text-decoration: none;
 	margin: 5px;
 	display: inline-block;
+ transition: 0.25s;
+}
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(168,85,247,0.25);
 }
 .primary {
 	background: linear-gradient(45deg, #7c3aed, #a855f7);
@@ -87,3 +93,9 @@ footer {
 	padding: 30px;
 	border-top: 1px solid #1b1b1b;
 }
+<<<<<<< HEAD
+=======
+section {
+  margin-bottom: 80px;
+}
+>>>>>>> b887f46e66beddc944be232b0956508bf8f6362d
