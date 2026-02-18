@@ -67,6 +67,11 @@ li {
 	text-decoration: none;
 	margin: 5px;
 	display: inline-block;
+ transition: 0.25s;
+}
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(168,85,247,0.25);
 }
 .primary {
 	background: linear-gradient(45deg, #7c3aed, #a855f7);
